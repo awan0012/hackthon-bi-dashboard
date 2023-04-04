@@ -1,0 +1,39 @@
+Building a modern data streaming architecture on AWS involves several steps, including setting up the data streaming pipeline, storing and processing the data, 
+and creating a dashboard to visualize the data. Here is a step-by-step process to build a modern data streaming architecture on AWS and create a dashboard with it:
+
+Step 1: Choose a Data Streaming Service
+AWS offers several data streaming services, including Amazon Kinesis, Amazon MSK, and Amazon Managed Streaming for Apache Kafka (Amazon MSK). 
+Choose the service that best fits your requirements.
+
+Step 2: Set up the Data Streaming Pipeline
+Create a Kinesis stream, configure the stream to receive data, and create a Kinesis Data Firehose delivery stream to store the data in S3. 
+You can also use AWS Glue to transform the data and store it in a database.
+
+Step 3: Store and Process the Data
+Store the data in Amazon S3, which is highly scalable and durable. 
+You can also use Amazon EMR or AWS Glue to process the data in real-time or batch mode.
+
+Step 4: Create a Dashboard
+To create a dashboard, you can use Amazon QuickSight, which is a cloud-based business intelligence service. 
+Connect to the data source (S3 bucket or database) and create the visualizations.
+
+Here is a step-by-step process to create a dashboard using Amazon QuickSight:
+
+Step 1: Create a QuickSight Account
+If you don't have a QuickSight account, create one by signing up for the service.
+
+Step 2: Connect to the Data Source
+In QuickSight, choose the data source (S3 bucket or database) that you want to connect to. 
+Provide the necessary credentials and select the tables or files you want to use.
+
+Step 3: Create Visualizations
+Choose the type of visualization you want to create, such as a bar chart or a line chart. 
+Select the fields to be displayed and configure the visualization options.
+
+Step 4: Publish the Dashboard
+After creating the visualizations, publish the dashboard by clicking the "Publish" button. 
+You can share the dashboard with other users by providing them with the dashboard URL.
+
+In conclusion, building a modern data streaming architecture on AWS involves several steps, including setting up the data streaming pipeline, storing 
+and processing the data, and creating a dashboard to visualize the data. By following the above steps, you can easily create a dashboard to visualize the data 
+and gain insights into your data streaming architecture.
